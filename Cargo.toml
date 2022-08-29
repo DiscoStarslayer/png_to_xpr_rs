@@ -1,0 +1,14 @@
+[package]
+name = "png_to_xpr_rs"
+version = "0.1.0"
+edition = "2021"
+license = "LGPL-2.0-or-later"
+license-file = "LICENSE"
+readme = "README.md"
+
+[workspace]
+
+[dependencies]
+clap = { version = "3.2.18", features = ["derive"] }
+png = "0.17.5"
+xpr_swizzle = { path = "xpr_swizzle" }
